@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Zone de texte</_name>
+  <id>org.ekips.filter.iifbalpha</id>
+  <dependency type="executable" location="extensions">iifbalpha.py</dependency>
+  <dependency type="executable" location="extensions">iilib.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="nbtries" type="int" min="1" _gui-text="Nombre d'essais">2</param>
+  <param name="correction" type="boolean" _gui-text="Correction">true</param>
+  <param name="nbanswers" type="int" min="1" max="10" _gui-text="Nombre de réponses">1</param>
+  <param name="tab" type="notebook">
+	<page name="answer1" _gui-text="Réponse 1">
+		<param name="valueanswer1" type="string" _gui-text="Texte"></param>
+		<param name="message1" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer2" _gui-text="Réponse 2">
+		<param name="valueanswer2" type="string" _gui-text="Texte"></param>
+		<param name="message2" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer3" _gui-text="Réponse 3">
+		<param name="valueanswer3" type="string" _gui-text="Texte"></param>
+		<param name="message3" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer4" _gui-text="Réponse 4">
+		<param name="valueanswer4" type="string" _gui-text="Texte"></param>
+		<param name="message4" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer5" _gui-text="Réponse 5">
+		<param name="valueanswer5" type="string" _gui-text="Texte"></param>
+		<param name="message5" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer6" _gui-text="Réponse 6">
+		<param name="valueanswer6" type="string" _gui-text="Texte"></param>
+		<param name="message6" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer7" _gui-text="Réponse 7">
+		<param name="valueanswer7" type="string" _gui-text="Texte"></param>
+		<param name="message7" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer8" _gui-text="Réponse 8">
+		<param name="valueanswer8" type="string" _gui-text="Texte"></param>
+		<param name="message8" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer9" _gui-text="Réponse 9">
+		<param name="valueanswer9" type="string" _gui-text="Texte"></param>
+		<param name="message9" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+	<page name="answer10" _gui-text="Réponse 10">
+		<param name="valueanswer10" type="string" _gui-text="Texte"></param>
+		<param name="message10" type="string" _gui-text="Message de la boite">Entrer le texte de la bonne réponse.</param>
+	</page>
+  </param>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="InterInk">
+		<submenu _name="Questions"/>
+	   </submenu>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">iifbalpha.py</command>
+  </script>
+</inkscape-extension>

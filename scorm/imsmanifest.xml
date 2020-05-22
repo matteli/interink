@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.0.2 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-AA0677C7-0AAC-1B65-2DEC-D930A4E0CF65" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-6C0A9598-66E8-7036-6407-219A1E2A54FF">
+    <organization identifier="ORG-6C0A9598-66E8-7036-6407-219A1E2A54FF" structure="hierarchical">
+      <title>Titre</title>
+      <item identifier="ITEM-D2E84411-D7A3-E40E-35BE-D165210A5042" identifierref="RES-12C7ED0D-B497-1FD1-274E-46A86A49AF99" isvisible="true">
+        <title>InterInk</title>
+        <adlcp:datafromlms>completed</adlcp:datafromlms>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-12C7ED0D-B497-1FD1-274E-46A86A49AF99" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html" />
+    </resource>
+  </resources>
+</manifest>
+

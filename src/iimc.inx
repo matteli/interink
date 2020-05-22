@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Choix multiple</_name>
+  <id>org.ekips.filter.iimc</id>
+  <dependency type="executable" location="extensions">iimc.py</dependency>
+  <dependency type="executable" location="extensions">iilib.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="nbtries" type="int" min="1" _gui-text="Nombre d'essais">2</param>
+  <param name="correction" type="boolean" _gui-text="Correction">true</param>
+  <param name="graphic" type="optiongroup" gui-text="Type de graphisme">
+        <_option value="button">Bouton</_option>
+        <_option value="case">Case</_option>
+  </param>
+
+  <param name="nbchoices" type="int" min="1" max="10" _gui-text="Nombre de choix">2</param>
+  <_param name="intro" type="description">Cochez les choix qui sont bons.</_param>
+  <param name="answer1" type="boolean" _gui-text="Choix 1">false</param>
+  <param name="answer2" type="boolean" _gui-text="Choix 2">false</param>
+  <param name="answer3" type="boolean" _gui-text="Choix 3">false</param>
+  <param name="answer4" type="boolean" _gui-text="Choix 4">false</param>
+  <param name="answer5" type="boolean" _gui-text="Choix 5">false</param>
+  <param name="answer6" type="boolean" _gui-text="Choix 6">false</param>
+  <param name="answer7" type="boolean" _gui-text="Choix 7">false</param>
+  <param name="answer8" type="boolean" _gui-text="Choix 8">false</param>
+  <param name="answer9" type="boolean" _gui-text="Choix 9">false</param>
+  <param name="answer10" type="boolean" _gui-text="Choix 10">false</param>
+  
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="InterInk">
+		<submenu _name="Questions"/>
+	   </submenu>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">iimc.py</command>
+  </script>
+</inkscape-extension>

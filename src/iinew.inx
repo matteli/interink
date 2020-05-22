@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Créer/Mettre à jour un InterInk</_name>
+  <id>org.ekips.filter.iinew</id>
+  <dependency type="executable" location="extensions">iinew.py</dependency>
+  <dependency type="executable" location="extensions">iilib.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="nbquestions" type="int" min="0" _gui-text="Nombre de questions">0</param>
+  <param name="scorm" type="boolean" _gui-text="Scorm ?">false</param>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="InterInk"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">iinew.py</command>
+  </script>
+</inkscape-extension>

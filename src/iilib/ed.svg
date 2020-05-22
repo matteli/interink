@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:interink="http://www.interink.org/namespaces/interink">
+    <g
+       onclick="edClic(evt)"
+       interink:type="edend"
+       inkscape:label="iiEndDoc"
+       inkscape:groupmode="layer"
+       id="ed">
+      <path
+         sodipodi:type="arc"
+         fill="#ffffff"
+         stroke="#d40000"
+         stroke-width="4"
+         stroke-miterlimit="4"
+         id="path2535"
+         sodipodi:cx="15"
+         sodipodi:cy="15"
+         sodipodi:rx="15"
+         sodipodi:ry="15"
+         d="M 30,15 A 15,15 0 1 1 0,15 A 15,15 0 1 1 30,15 z"/>
+      <path
+         fill="none"
+         stroke="#d40000"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="4"
+         d="M 10,10 L 20,20"
+         id="path3511"/>
+      <path
+         fill="none"
+         stroke="#d40000"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="4"
+         d="M 10,20 L 20,10"
+         id="path3513"/>
+      <g
+		id="edmask"
+		inkscape:label="iiMask"
+		inkscape:groupmode="layer"
+		interink:type="mask"
+		style="visibility:hidden"
+		interink:mask="false">
+		<rect
+			 x="-10"
+			 y="-10"
+			 height="50"
+			 width="50"
+			 fill="#ffffff"
+			 fill-opacity="0.5"
+			 id="rect"
+			 class="mask"/>
+	   </g>
+    </g>
+</svg>

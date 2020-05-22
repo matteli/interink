@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Changeur de diapo</_name>
+  <id>org.ekips.filter.iicd</id>
+  <dependency type="executable" location="extensions">iicd.py</dependency>
+  <dependency type="executable" location="extensions">iilib.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="slide" type="optiongroup" gui-text="Type de transition">
+        <_option value="next">Diapo suivante</_option>
+        <_option value="end">Fin document</_option>
+  </param>
+  <param name="next_slide" type="string" gui-text="Nom diapo suivante"> </param>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="InterInk">
+		<submenu _name="Divers"/>
+	   </submenu>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">iicd.py</command>
+  </script>
+</inkscape-extension>

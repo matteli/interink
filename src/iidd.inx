@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Glisser déposer</_name>
+  <id>org.ekips.filter.iidd</id>
+  <dependency type="executable" location="extensions">iidd.py</dependency>
+  <dependency type="executable" location="extensions">iilib.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="nbtries" type="int" min="1" _gui-text="Nombre d'essais">2</param>
+  <param name="correction" type="boolean" _gui-text="Correction">true</param>
+  <param name="nbobjects" type="int" min="1" _gui-text="Nombre d'objets">4</param>
+  <param name="nbtargets" type="int" min="1" _gui-text="Nombre de cibles">4</param>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="InterInk">
+		<submenu _name="Questions"/>
+	   </submenu>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">iidd.py</command>
+  </script>
+</inkscape-extension>

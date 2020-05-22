@@ -1,0 +1,49 @@
+InterInk 0.4.0
+
+Auteur : Matthieu Nué
+matthieu.nue@gmail.com
+
+Site officiel : 
+http://interink.abriand.info
+
+Site du développement :
+https://launchpad.net/interink
+
+Notes :
+
+0.4.0 :
+	Améliorations :
+		-les scripts SCORM sont maintenant incorporés directement dans le SVG
+	Correction de bug :
+		-réagencement de certains calques
+
+InterInk 0.3.0 :
+	Nouvelles fonctionnalités :
+		-Scroller horizontal
+		-Zonage
+	Améliorations :
+		-Masquage du EndDiapo apres clic
+		-Séparation des objets 'zones de textes et 'zones de nombres'
+		-Amélioration du passeur de diapo (voir tuto pour l'explication en détail)
+		-Mise en verticale des objets
+		-Possibilité d'indiquer manuellement le nombre de questions à la création
+		-numérotation des calques dupliqués
+	Correction de bug :
+		-non affichage dans zone de texte
+		-inversion nombre d'objets et nombre de cibles dans le glisser déposer
+		-impossibilité des caractères accuentués
+		-comparaison de nombres avec marge d'erreur
+
+InterInk 0.2.1 :
+-Utilisation par defaut de la police libre DejaVu (non installé par defaut sous windows)
+-Suppression des numéros sur le texte des réponses
+
+InterInk 0.2.0 :
+-Les objets ii sont découpés en calques pour une navigation plus simple.
+-Utilisation de l'interface graphique d'Inkscape pour les paramètres (wxPython n'est donc plus nécessaire).
+-Correction d'un bug pour les zone de texte en mode alphabétique.
+
+InterInk 0.1 :
+1er édition
+
+

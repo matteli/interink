@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:interink="http://www.interink.org/namespaces/interink">
+   <g
+      id="hs"
+	  interink:type="hs"
+	  inkscape:label="iiHorizontalScroller"
+      inkscape:groupmode="layer">
+	  <g
+	     id="hscursor"
+		 interink:type="cursor"
+         inkscape:label="iiCursor"
+         inkscape:groupmode="layer">
+		  <g
+			 id="hsline"
+			 interink:type="line"
+			 inkscape:label="iiLine"
+			 inkscape:groupmode="layer">
+			 <line
+				id="line1"
+				x1="15"
+				y1="15"
+				x2="130"
+				y2="15"
+				stroke="#fd3301"
+				stroke-width="4"
+				stroke-linecap="round"/>
+		   </g>
+		   <g
+			   id="hsbutton"
+			   interink:type="button"
+			   inkscape:label="iiButton"
+			   inkscape:groupmode="layer"
+			   onmousedown="csDownButton(evt)"
+			   onmousemove="csMoveButton(evt)"
+			   onmouseup="csUpButton(evt)"
+			   onmouseout="csUpButton(evt)"
+			   cursor="move">
+			   <path
+				  d="m 25,15 a 10,10 0 1 1 -20,0 10,10 0 1 1 20,0 z"
+				  id="path1"
+				  fill="#d40000"
+				  fill-opacity="1"
+				  stroke="#d40000"
+				  stroke-width="4"
+				  stroke-linecap="square"
+				  stroke-linejoin="round"
+				  stroke-miterlimit="4"
+				  stroke-opacity="1"/>
+		   </g>
+		   <path
+			  d="m 130,0 a 15,15 0 0 1 0,30"
+			  id="path2725"
+			  fill="none"
+			  stroke="#d40000"
+			  stroke-width="4"
+			  stroke-linecap="square"
+			  stroke-linejoin="round"
+			  stroke-miterlimit="4"
+			  stroke-opacity="1"/>
+		   <path
+			  d="m 15,0 115,0"
+			  id="path2727"
+			  fill="none"
+			  stroke="#d40000"
+			  stroke-width="4"
+			  stroke-linecap="square"
+			  stroke-linejoin="round"
+			  stroke-miterlimit="4"
+			  stroke-opacity="1"/>
+		   <path
+			  d="m 15,30 115,0"
+			  id="path2729"
+			  fill="none"
+			  stroke="#d40000"
+			  stroke-width="4"
+			  stroke-linecap="square"
+			  stroke-linejoin="round"
+			  stroke-miterlimit="4"
+			  stroke-opacity="1"/>
+		   <path
+			  d="m 15,30 a 15,15 0 1 1 0,-30"
+			  id="path2731"
+			  fill="none"
+			  stroke="#d40000"
+			  stroke-width="4"
+			  stroke-linecap="square"
+			  stroke-linejoin="round"
+			  stroke-miterlimit="4"
+			  stroke-opacity="1"/>
+		</g>
+		<g
+          id="hsrectangle"
+		  inkscape:label="iiRectangle"
+		  inkscape:groupmode="layer"
+          interink:type="rectangle">
+          <rect
+             fill="#d40000"
+			 stroke="none"
+             id="rect2735"
+             width="200"
+             height="60"
+             x="10"
+             y="40"
+             ry="0" />
+        </g>
+	</g>
+</svg>
